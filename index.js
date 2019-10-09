@@ -72,7 +72,7 @@
             }
             else
             {
-                resultNum = "Look at what you've done";
+                resultNum = "Unreal";
                 el('#calculator').classList.add("broken");
                 el('#reset').classList.add("show");
             }
