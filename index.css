@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(78, 245, 78);
+    background-color: rgb(56, 177, 66);
 }
 .calculator {
     margin: auto;
@@ -27,6 +27,10 @@ body
     margin: 7px;
     background-color: black;
 }
+.calculator .num:hover
+{
+    background-color: rgb(46, 45, 45);
+}
 .calculator .ops
 {
     width: 50px;
@@ -35,7 +39,10 @@ body
     color: rgb(78, 245, 78);
     background-color: black;
 }
-
+.calculator .ops:hover
+{
+    background-color: rgb(46, 45, 45);
+}
 .calculator .equals
 {
     width: 50px;
@@ -43,6 +50,10 @@ body
     margin: 7px;
     color: rgb(78, 245, 78);
     background-color: black;
+}
+.calculator .equals:hover
+{
+    background-color: rgb(46, 45, 45);
 }
 .calculator .clear
 {
@@ -52,6 +63,10 @@ body
     height: 50px;
     color: rgb(78, 245, 78);
     background-color: black;
+}
+.calculator .clear:hover
+{
+    background-color: rgb(46, 45, 45);
 }
 .reset
 {
